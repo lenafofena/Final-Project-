@@ -30,7 +30,7 @@ temp_mask = display_word;
  
 while (to_guess.indexOf(l, pos) != -1)
 {
-pos = to_guess.indexOf(l, pos);			
+pos = to_guess.indexOf(l, pos);		
 end = pos + 1;
  
 start_text = temp_mask.substring(0, pos);
